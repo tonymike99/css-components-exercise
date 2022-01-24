@@ -143,3 +143,23 @@ small {
 .relative {
     position: relative;
 }
+
+.snackbar {
+    display: flex;
+    justify-content: space-between;
+    background-color: #333333;
+    margin: 0 auto;
+    width: 25rem;
+    color: white;
+    padding: 0 10px;
+}
+
+.link {
+    font-weight: bold;
+    color: #b780fb;
+    text-decoration: none;
+}
+
+.pointer {
+    cursor: pointer;
+}
