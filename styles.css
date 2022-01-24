@@ -163,3 +163,30 @@ small {
 .pointer {
     cursor: pointer;
 }
+
+.chip__basic {
+    display: flex;
+    flex-wrap: wrap;
+    width: 15rem;
+    margin: 0 auto;
+}
+
+.chip--stacked {
+    flex-direction: column;
+}
+
+.chip {
+    background-color: #d0d0d0;
+    padding: 10px;
+    border: none;
+    border-radius: 20px;
+    margin: 5px;
+}
+
+.chip:hover {
+    background-color: #c4c4c4;
+}
+
+.close__button {
+    cursor: pointer;
+}
