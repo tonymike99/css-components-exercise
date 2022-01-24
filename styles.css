@@ -21,7 +21,8 @@ html {
     /* border: 2px solid black; */
     width: 20rem;
     border-radius: 0.5rem;
-    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 5px 15px;
+    cursor: pointer;
 }
 
 .card__picture {
@@ -101,14 +102,14 @@ small {
 
 .badge {
     display: inline-block;
+    border-radius: 50%;
     width: 20px;
     height: 20px;
     text-align: center;
     font-weight: bold;
     background-color: #ff4081;
     color: white;
-    border-radius: 50%;
-    padding: 2px;
+    padding: 1px;
     position: absolute;
     top: -20px;
     right: -20px;
@@ -118,6 +119,7 @@ small {
     top: -15px;
     left: -10px;
     right: none;
+    padding-bottom: 0;
 }
 
 .badge-sm {
@@ -134,6 +136,7 @@ small {
     font-size: large;
     /* top: -25px;
     right: -25px; */
+    padding-bottom: 0;
 }
 
 .btn {
@@ -206,7 +209,7 @@ small {
 .drawer__component {
     width: 15rem;
     border-radius: 0.5rem;
-    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 5px 15px;
     margin: 0 auto;
     padding: 1rem;
 }
@@ -267,7 +270,7 @@ small {
 .modal__component {
     width: 15rem;
     border-radius: 0.5rem;
-    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 5px 15px;
     padding: 1rem;
     margin: 0 auto;
     z-index: 1;
