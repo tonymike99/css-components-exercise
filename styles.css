@@ -247,3 +247,40 @@ small {
 .icon:hover {
     opacity: 0.5;
 }
+
+.modal__component {
+    width: 15rem;
+    border-radius: 0.5rem;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    padding: 1rem;
+    margin: 0 auto;
+    z-index: 1;
+    opacity: 0;
+}
+
+.modal__component.active {
+    opacity: 1;
+}
+
+.modal__body {
+    height: 3rem;
+}
+
+.modal__footer {
+    display: flex;
+    justify-content: flex-end;
+    gap: 1rem;
+}
+
+.center {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.modal__button {
+    width: 10rem;
+    margin: auto;
+    text-align: center;
+}
