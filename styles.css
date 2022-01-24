@@ -70,3 +70,76 @@ small {
 .hide__element {
     visibility: hidden;
 }
+
+.hr {
+    color: #707070;
+    margin: 3rem 0;
+    border: 0;
+    border-top: 0.1px solid #707070;
+    border-radius: 25%;
+}
+
+.badge__components {
+    text-align: center;
+}
+
+.padding-bottom {
+    padding-bottom: 2rem;
+}
+
+.wrapper {
+    position: relative;
+    display: inline-block;
+    margin: 10px;
+}
+
+.badge {
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    text-align: center;
+    font-weight: bold;
+    background-color: #ff4081;
+    color: white;
+    border-radius: 50%;
+    padding: 2px;
+    position: absolute;
+    top: -20px;
+    right: -20px;
+}
+
+.badge-left {
+    top: -15px;
+    left: -10px;
+    right: none;
+}
+
+.badge-sm {
+    width: 15px;
+    height: 15px;
+    font-size: small;
+    /* top: -15px;
+    right: -15px; */
+}
+
+.badge-lg {
+    width: 25px;
+    height: 25px;
+    font-size: large;
+    /* top: -25px;
+    right: -25px; */
+}
+
+.btn {
+    text-align: center;
+    font-weight: bold;
+    background-color: #3f51b5;
+    color: white;
+    border-radius: 5px;
+    padding: 10px;
+    border: none;
+}
+
+.relative {
+    position: relative;
+}
