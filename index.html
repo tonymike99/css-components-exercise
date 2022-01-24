@@ -415,6 +415,48 @@
             </div>
         </div>
 
-        <script src="index.js"></script>
+        <hr class="hr" />
+
+        <h1 class="text-center padding-bottom">Tab Component</h1>
+        <div class="tab__component">
+            <ul class="tabs">
+                <li data-tab-target="#tab1" class="active tab">
+                    <button class="btn btn-lg pointer">Tab 1</button>
+                </li>
+                <li data-tab-target="#tab2" class="tab">
+                    <button class="btn btn-lg pointer">Tab 2</button>
+                </li>
+                <li data-tab-target="#tab3" class="tab">
+                    <button class="btn btn-lg pointer">Tab 3</button>
+                </li>
+            </ul>
+
+            <div class="tab-content">
+                <div id="tab1" data-tab-content class="active text-center">
+                    <h1>Tab 1</h1>
+                    <p>
+                        Lorem ipsum dolor sit, amet consectetur adipisicing
+                        elit.
+                    </p>
+                </div>
+                <div id="tab2" data-tab-content class="text-center">
+                    <h1>Tab 2</h1>
+                    <p>
+                        Corrupti hic eaque a? Cupiditate dolor et laborum ipsam
+                        sed maiores consequuntur amet!
+                    </p>
+                </div>
+                <div id="tab3" data-tab-content class="text-center">
+                    <h1>Tab 3</h1>
+                    <p>
+                        Asperiores officia aperiam dolores voluptates
+                        consequuntur ullam architecto nam!
+                    </p>
+                </div>
+            </div>
+        </div>
+
+        <script src="modal.js"></script>
+        <script src="tab.js"></script>
     </body>
 </html>
