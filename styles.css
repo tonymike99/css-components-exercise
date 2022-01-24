@@ -217,3 +217,33 @@ small {
     background-color: #e5d5fc;
     border-radius: 10px;
 }
+
+.header__standard {
+    display: flex;
+    gap: 2rem;
+    width: 40rem;
+    margin: 0 auto;
+    background-color: #6200ee;
+    color: white;
+    align-items: center;
+    padding: 0 20px;
+    font-weight: bold;
+}
+
+.header__text {
+    flex-grow: 1;
+}
+
+.header__utilities {
+    display: flex;
+    justify-content: space-between;
+    flex-basis: 5rem;
+}
+
+.icon {
+    cursor: pointer;
+}
+
+.icon:hover {
+    opacity: 0.5;
+}
