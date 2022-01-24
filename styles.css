@@ -190,3 +190,30 @@ small {
 .close__button {
     cursor: pointer;
 }
+
+.drawer__component {
+    width: 15rem;
+    border-radius: 0.5rem;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    margin: 0 auto;
+    padding: 1rem;
+}
+
+.drawer__inbox,
+.drawer__star,
+.drawer__sent,
+.drawer__drafts {
+    display: flex;
+    gap: 2rem;
+    border: 2x solid black;
+    cursor: pointer;
+    padding: 10px;
+}
+
+.drawer__inbox:hover,
+.drawer__star:hover,
+.drawer__sent:hover,
+.drawer__drafts:hover {
+    background-color: #e5d5fc;
+    border-radius: 10px;
+}
