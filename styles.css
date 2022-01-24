@@ -5,6 +5,8 @@ html {
     font-family: 'Montserrat', sans-serif;
 }
 
+/* CARD */
+
 .card__components {
     display: grid;
     justify-items: center;
@@ -71,6 +73,8 @@ small {
     visibility: hidden;
 }
 
+/* HR */
+
 .hr {
     color: #707070;
     margin: 3rem 0;
@@ -78,6 +82,8 @@ small {
     border-top: 0.1px solid #707070;
     border-radius: 25%;
 }
+
+/* BADGE */
 
 .badge__components {
     text-align: center;
@@ -144,6 +150,8 @@ small {
     position: relative;
 }
 
+/* SNACKBAR */
+
 .snackbar {
     display: flex;
     justify-content: space-between;
@@ -163,6 +171,8 @@ small {
 .pointer {
     cursor: pointer;
 }
+
+/* CHIP */
 
 .chip__basic {
     display: flex;
@@ -191,6 +201,8 @@ small {
     cursor: pointer;
 }
 
+/* DRAWER */
+
 .drawer__component {
     width: 15rem;
     border-radius: 0.5rem;
@@ -217,6 +229,8 @@ small {
     background-color: #e5d5fc;
     border-radius: 10px;
 }
+
+/* HEADER */
 
 .header__standard {
     display: flex;
@@ -247,6 +261,8 @@ small {
 .icon:hover {
     opacity: 0.5;
 }
+
+/* MODAL */
 
 .modal__component {
     width: 15rem;
@@ -284,4 +300,37 @@ small {
     width: 10rem;
     margin: auto;
     text-align: center;
+}
+
+/* TAB */
+
+.tab__component {
+    width: 50rem;
+    margin: auto;
+    border: 2px solid black;
+}
+
+[data-tab-content] {
+    display: none;
+}
+
+.active[data-tab-content] {
+    display: block;
+}
+
+.tabs {
+    padding: 10px;
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    cursor: pointer;
+}
+
+.li {
+    display: inline-block;
+    flex-grow: 1;
+}
+
+.btn-lg {
+    width: 15rem;
 }
