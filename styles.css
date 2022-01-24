@@ -273,6 +273,7 @@ small {
     z-index: 1;
     opacity: 0;
     background-color: white;
+    display: none;
 }
 
 .modal__component.active {
